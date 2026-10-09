@@ -73,7 +73,6 @@ export default function Hero() {
           },
         });
 
-        // Video progresses only with scrolling.
         timeline.to(
           video,
           {

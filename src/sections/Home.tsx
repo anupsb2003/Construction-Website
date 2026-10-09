@@ -1,4 +1,5 @@
 
+import Footer from "../components/Footer/Footer";
 import Hero from "../components/Hero/Hero";
 import About from "./About/About";
 import Contact from "./Contact/Contact";
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Services />
       <Contact />
+      <Footer />
     </main>
   );
 }
