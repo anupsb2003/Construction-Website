@@ -1,0 +1,33 @@
+
+.projects-section {
+  min-height: 100vh;
+  padding: 120px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #171715;
+  color: #f7f4ee;
+}
+
+.projects-eyebrow {
+  margin-bottom: 28px;
+  color: #aaa397;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+}
+
+.projects-section h2 {
+  max-width: 1000px;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(44px, 8vw, 110px);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -.065em;
+}
+
+.projects-description {
+  max-width: 440px;
+  margin-top: 28px;
+  line-height: 1.8;
+  color: #bcbab4;
+}

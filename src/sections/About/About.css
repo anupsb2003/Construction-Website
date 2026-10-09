@@ -1,0 +1,41 @@
+
+.about-section {
+  min-height: 85vh;
+  padding: 120px 8%;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  align-items: center;
+  gap: 10%;
+  background: #e8e3d9;
+  color: #22211e;
+}
+
+.about-eyebrow {
+  margin-bottom: 28px;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+}
+
+.about-section h2 {
+  max-width: 650px;
+  font-family: "Manrope", sans-serif;
+  font-size: clamp(48px, 7vw, 95px);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.07em;
+}
+
+.about-description {
+  max-width: 440px;
+  font-size: 15px;
+  line-height: 2;
+  color: #57534c;
+}
+
+@media (max-width: 700px) {
+  .about-section {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding: 90px 6%;
+  }
+}
